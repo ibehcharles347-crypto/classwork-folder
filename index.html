@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <section id="form_page" class="d-flex flex-column justify-content-center align-items-center container">
+        <p class="absolute">The form will submit and output a remark on the scores only if <br>1. the input name is Charles, Ibeh or Goodness <br>2. all the fields are filled and not empty, or else it will send out an alert to fill any empty field(s)</p>
+        <form action="" id="myform" class="d-flex flex-column container justify-content-center align-items-center gap-2 py-5">
+            <h1 class="">Check Results</h1>
+            <input type="text" placeholder = "Please enter your name" id="name" class="subject rounded">
+            <input type="text" id="maths" placeholder="Enter maths score" class="subject rounded">
+            <input type="text" id="english" placeholder="Enter english score" class="subject rounded">
+            <input type="text" id="chemistry" placeholder="Enter chemistry score" class="subject rounded">
+            <input type="text" id="physics" placeholder="Enter physics score" class="subject rounded">
+
+            <button type="submit" class="btn btn-primary">Check result</button>
+            <button type="reset" class="btn btn-danger">Reset</button>
+            <div class="showremark text-white">
+            
+            </div>
+        </form>
+    </section>
+
+    <script src="./script2.js"></script>
+</body>
+
+</html>

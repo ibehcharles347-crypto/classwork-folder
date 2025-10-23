@@ -1,0 +1,23 @@
+/* index2.html */
+#form_page{
+    height: 100vh;
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 0;
+    color: rgb(169, 50, 7);
+}
+.subject{
+    width: 100%;
+    border: thin solid black;
+    outline: none;
+    padding: 5px;
+  
+    
+}
+#myform{
+    width: 60%;
+    background-color: rgb(238, 144, 109);
+}
+
