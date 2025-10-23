@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         let chemistry = document.getElementById('chemistry').value;
         let physics = document.getElementById('physics').value;
 
-        if( maths === "" || english === "" || chemistry === "" || physics === "") {
+        if( inputName === "" || maths === "" || english === "" || chemistry === "" || physics === "") {
             alert('Please fill the empty field(s).');
             return;
         };
